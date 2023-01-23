@@ -2,6 +2,11 @@
   "name": "component-library-vue",
   "version": "0.1.0",
   "private": true,
+  "main": "dist/jd-components.common.js",
+  "module": "dist/jd-components.umd.min.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "npm run build:lib && npm run build:style",
