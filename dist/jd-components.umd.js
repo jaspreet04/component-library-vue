@@ -138,15 +138,16 @@ if (typeof window !== 'undefined') {
 
 // EXTERNAL MODULE: external {"commonjs":"vue","commonjs2":"vue","root":"Vue"}
 var external_commonjs_vue_commonjs2_vue_root_Vue_ = __webpack_require__(203);
-;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-82.use[1]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/components/Buttons/JdButton.vue?vue&type=template&id=72617276
+;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-82.use[1]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/components/Buttons/JdButton.vue?vue&type=template&id=4551961f
 
 const _hoisted_1 = {
-  type: "button"
+  type: "button",
+  class: "bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
 };
 function render(_ctx, _cache) {
   return (0,external_commonjs_vue_commonjs2_vue_root_Vue_.openBlock)(), (0,external_commonjs_vue_commonjs2_vue_root_Vue_.createElementBlock)("button", _hoisted_1, [(0,external_commonjs_vue_commonjs2_vue_root_Vue_.renderSlot)(_ctx.$slots, "default")]);
 }
-;// CONCATENATED MODULE: ./src/components/Buttons/JdButton.vue?vue&type=template&id=72617276
+;// CONCATENATED MODULE: ./src/components/Buttons/JdButton.vue?vue&type=template&id=4551961f
 
 // EXTERNAL MODULE: ./node_modules/vue-loader/dist/exportHelper.js
 var exportHelper = __webpack_require__(620);
