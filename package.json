@@ -1,11 +1,11 @@
 {
   "name": "component-library-vue",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "main": "dist/jd-components.common.js",
   "module": "dist/jd-components.umd.min.js",
   "files": [
-    "dist"
+    "dist/*"
   ],
   "scripts": {
     "serve": "vue-cli-service serve",
