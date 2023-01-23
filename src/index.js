@@ -9,4 +9,4 @@ const AllComponents = {
     },
 }
 
-export default { AllComponents }
+export default AllComponents;
