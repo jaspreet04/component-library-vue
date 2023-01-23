@@ -1,3 +1,3 @@
 import JdButton from './JdButton.vue';
 
-export default { jdButton };
+export default { JdButton };
