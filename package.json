@@ -7,10 +7,11 @@
     "build": "npm run build:lib && npm run build:style",
     "lint": "vue-cli-service lint",
     "build:lib": "vue-cli-service build --target lib --name jd-components src/index.js",
-    "build:style": "postcss src/tailwindcss.css -o dist/styles.css"
+    "build:style": "postcss src/tailwind.css -o dist/styles.css"
   },
   "dependencies": {
     "core-js": "^3.8.3",
+    "postcss-cli": "^10.1.0",
     "vue": "^3.2.13"
   },
   "devDependencies": {
