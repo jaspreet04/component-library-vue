@@ -173,9 +173,7 @@ const AllComponents = {
     });
   }
 };
-/* harmony default export */ var src_0 = ({
-  AllComponents
-});
+/* harmony default export */ var src_0 = (AllComponents);
 ;// CONCATENATED MODULE: ./node_modules/@vue/cli-service/lib/commands/build/entry-lib.js
 
 
