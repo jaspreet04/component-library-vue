@@ -1,3 +1,3 @@
-import JdButton from './Buttons/JdButton.vue';
+import JdRoundButton from './Buttons/JdRoundButton.vue';
 
-export default { JdButton };
+export default { JdRoundButton };

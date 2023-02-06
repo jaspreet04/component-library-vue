@@ -1,53 +1,7 @@
 /******/ (function() { // webpackBootstrap
 /******/ 	"use strict";
-/******/ 	var __webpack_modules__ = ({
-
-/***/ 89:
-/***/ (function(__unused_webpack_module, exports) {
-
-var __webpack_unused_export__;
-
-
-__webpack_unused_export__ = ({
-  value: true
-});
-// runtime helper for setting properties on components
-// in a tree-shakable way
-exports.Z = (sfc, props) => {
-  const target = sfc.__vccOpts || sfc;
-  for (const [key, val] of props) {
-    target[key] = val;
-  }
-  return target;
-};
-
-/***/ })
-
-/******/ 	});
-/************************************************************************/
-/******/ 	// The module cache
-/******/ 	var __webpack_module_cache__ = {};
-/******/ 	
-/******/ 	// The require function
-/******/ 	function __webpack_require__(moduleId) {
-/******/ 		// Check if module is in cache
-/******/ 		var cachedModule = __webpack_module_cache__[moduleId];
-/******/ 		if (cachedModule !== undefined) {
-/******/ 			return cachedModule.exports;
-/******/ 		}
-/******/ 		// Create a new module (and put it into the cache)
-/******/ 		var module = __webpack_module_cache__[moduleId] = {
-/******/ 			// no module.id needed
-/******/ 			// no module.loaded needed
-/******/ 			exports: {}
-/******/ 		};
-/******/ 	
-/******/ 		// Execute the module function
-/******/ 		__webpack_modules__[moduleId](module, module.exports, __webpack_require__);
-/******/ 	
-/******/ 		// Return the exports of the module
-/******/ 		return module.exports;
-/******/ 	}
+/******/ 	// The require scope
+/******/ 	var __webpack_require__ = {};
 /******/ 	
 /************************************************************************/
 /******/ 	/* webpack/runtime/define property getters */
@@ -85,8 +39,6 @@ exports.Z = (sfc, props) => {
 /******/ 	
 /************************************************************************/
 var __webpack_exports__ = {};
-// This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
-!function() {
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
@@ -121,31 +73,36 @@ if (typeof window !== 'undefined') {
 
 ;// CONCATENATED MODULE: external {"commonjs":"vue","commonjs2":"vue","root":"Vue"}
 var external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject = require("vue");
-;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/components/Buttons/JdButton.vue?vue&type=template&id=4551961f
+;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/components/Buttons/JdRoundButton.vue?vue&type=script&setup=true&lang=js
 
-const _hoisted_1 = {
-  type: "button",
-  class: "bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
-};
-function render(_ctx, _cache) {
-  return (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.openBlock)(), (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createElementBlock)("button", _hoisted_1, [(0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.renderSlot)(_ctx.$slots, "default")]);
-}
-;// CONCATENATED MODULE: ./src/components/Buttons/JdButton.vue?vue&type=template&id=4551961f
+/* harmony default export */ var JdRoundButtonvue_type_script_setup_true_lang_js = ({
+  __name: 'JdRoundButton',
+  props: {
+    className: String
+  },
+  setup(__props) {
+    const props = __props;
+    return (_ctx, _cache) => {
+      return (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.openBlock)(), (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createElementBlock)("button", {
+        type: "button",
+        class: (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.normalizeClass)(["rounded", props.className])
+      }, [(0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.renderSlot)(_ctx.$slots, "default")], 2);
+    };
+  }
+});
+;// CONCATENATED MODULE: ./src/components/Buttons/JdRoundButton.vue?vue&type=script&setup=true&lang=js
+ 
+;// CONCATENATED MODULE: ./src/components/Buttons/JdRoundButton.vue
 
-// EXTERNAL MODULE: ./node_modules/vue-loader/dist/exportHelper.js
-var exportHelper = __webpack_require__(89);
-;// CONCATENATED MODULE: ./src/components/Buttons/JdButton.vue
 
-const script = {}
 
-;
-const __exports__ = /*#__PURE__*/(0,exportHelper/* default */.Z)(script, [['render',render]])
+const __exports__ = JdRoundButtonvue_type_script_setup_true_lang_js;
 
-/* harmony default export */ var JdButton = (__exports__);
+/* harmony default export */ var JdRoundButton = (__exports__);
 ;// CONCATENATED MODULE: ./src/components/index.js
 
 /* harmony default export */ var components = ({
-  JdButton: JdButton
+  JdRoundButton: JdRoundButton
 });
 ;// CONCATENATED MODULE: ./src/index.js
 
@@ -164,7 +121,6 @@ const AllComponents = {
 /* harmony default export */ var entry_lib = (src_0);
 
 
-}();
 module.exports = __webpack_exports__;
 /******/ })()
 ;
